@@ -34,5 +34,13 @@ public class Main {
         System.out.println(" "+nbPiece5C+" pièce(s) de 5 centimes");
         System.out.println(" "+nbPiece10C+" pièce(s) de 10 centimes");
         System.out.println(" "+nbPiece20C+" pièce(s) de 20 centimes");
+        System.out.println("Soit au total: "+totalRecu+"centimes");
+
+        System.out.println("Je vous verse un café !!!");
+
+        if (totalRecu>45)
+        {
+            System.out.println("et je vous rends:" + (totalRecu-45)+"centimes");
+        }
     }
 }
