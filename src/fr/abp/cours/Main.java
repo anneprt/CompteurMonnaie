@@ -26,8 +26,13 @@ public class Main {
                 nbPiece20C = nbPiece20C + 1;
                 break;
             default:
+                piece=0;
                 System.out.println("Pièce non reconnue par la machine");
         }
-
+        totalRecu=totalRecu+piece;
+        System.out.println("Vous avez inséré: ");
+        System.out.println(" "+nbPiece5C+" pièce(s) de 5 centimes");
+        System.out.println(" "+nbPiece10C+" pièce(s) de 10 centimes");
+        System.out.println(" "+nbPiece20C+" pièce(s) de 20 centimes");
     }
 }
